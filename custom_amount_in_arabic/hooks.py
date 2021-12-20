@@ -14,7 +14,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/custom_amount_in_arabic/css/custom_amount_in_arabic.css"
-# app_include_js = "/assets/custom_amount_in_arabic/js/custom_amount_in_arabic.js"
+app_include_js = "/assets/custom_amount_in_arabic/js/tafgeetjs.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/custom_amount_in_arabic/css/custom_amount_in_arabic.css"
@@ -31,7 +31,7 @@ app_license = "MIT"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"Sales Invoice" : "accounts/doctype/sales_invoice/sales_invoice.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
