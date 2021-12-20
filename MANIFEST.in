@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include custom_amount_in_arabic *.css
+recursive-include custom_amount_in_arabic *.csv
+recursive-include custom_amount_in_arabic *.html
+recursive-include custom_amount_in_arabic *.ico
+recursive-include custom_amount_in_arabic *.js
+recursive-include custom_amount_in_arabic *.json
+recursive-include custom_amount_in_arabic *.md
+recursive-include custom_amount_in_arabic *.png
+recursive-include custom_amount_in_arabic *.py
+recursive-include custom_amount_in_arabic *.svg
+recursive-include custom_amount_in_arabic *.txt
+recursive-exclude custom_amount_in_arabic *.pyc
